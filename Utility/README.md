@@ -10,10 +10,14 @@
 
 접미사(suffix) 기능만 필요하지만, 만드는 김에 접두사(prefix)까지 다 만들었습니다.
 
-> Usage: AddFix.vbs <substring> <prefix/suffix/replace> <text1> <text2(optional only when replace)> <test(optional)>  
-> Example 1: cscript AddFix.vbs .txt prefix pf_ test  
-> Example 2: cscript AddFix.vbs .txt suffix _sf  
-> Example 3: cscript AddFix.vbs .txt replace pf_ " " test
+```bat
+Usage: AddFix.vbs <substring> <prefix/suffix/replace> <text1> <text2(optional only when replace)> <test(optional)>
+```
+```bat
+Example 1: cscript AddFix.vbs .txt prefix pf_ test
+Example 2: cscript AddFix.vbs .txt suffix _sf
+Example 3: cscript AddFix.vbs .txt replace pf_ " " test
+```
 
 혹시 접미사를 잘못 붙였을 경우, git의 discard 기능을 이용하거나 본 프로그램의 `replace` 옵션으로 다시 수정하실 수 있습니다.
 
